@@ -20,7 +20,7 @@ import "fmt"
 // }
 
 func main() {
-	for i := 0; i <= 51; i++ {
+	for i := 0; i <= 5; i++ {
 		fmt.Println(i, " - ", string(i), " - ", []byte(string(i)))
 	}
 	fmt.Println('d' - 'a' + 10)
